@@ -1,0 +1,80 @@
+.srcValue {
+        height: 6%;
+}
+
+body {
+    
+    background: url(../img/code.jpg)no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+	position: relative;
+}
+
+.siteTitle { 
+    	font-family: 'Roboto', sans-serif;
+	color: #f35626;
+	background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 60s infinite linear;
+	font-size:50px;
+	font-weight:300;
+	
+}
+
+@-webkit-keyframes hue {
+  	from {
+   	-webkit-filter: hue-rotate(0deg);
+  	}
+
+  	to {
+    	-webkit-filter: hue-rotate(-360deg);
+  	}
+}
+
+
+
+.pullDown {
+	margin: auto;
+  	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
+ 	display: table;
+  	height: auto;	
+	
+	color: #ffffff;
+}
+
+#url {
+	width: 40%;
+	display: inline;
+	
+}
+
+#submit {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+	border-color: #f35626;    
+    animation: hue 60s infinite linear;
+}
+
+#submit:hover {
+	border-color: #f35626;
+	color: #f35626;
+    background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+	font-weight: 700;
+}
+
+#src {
+	vertical-align: middle;
+
+}
+
+.tableContain {
+        background-color: white;
+        opacity: 0.6;
+}

@@ -1,0 +1,50 @@
+.srcValue {
+        height: 6%;
+}
+
+body {
+    background: url(../img/code.jpg)no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+        position: relative;
+}
+
+
+.container {
+        background-color: white;
+        opacity: 0.8;
+}
+
+table {
+	max-width: 80%;
+}
+
+td {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width:250px; /* or whatever width you want. */
+   max-width:250px;
+}
+
+#url {
+
+	width: 40%;
+	display: inline;
+}
+
+#header {
+	text-align: center;
+}
+btn {
+	display: inline-block;
+}
+
+form-group {
+	margin-bottom: 20px;
+}
+
+.col-sm-3 {
+	width: 26%;
+}
