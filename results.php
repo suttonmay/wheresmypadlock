@@ -1,5 +1,6 @@
 <html>
 <head>
+  <link rel="icon" href="img/locked.png">
   <!-- Main CSS stylesheet -->
   <link rel="stylesheet" href="css/results.css" type="text/css">
   <!-- Bootstrap CSS page -->
